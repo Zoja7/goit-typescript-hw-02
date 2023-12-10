@@ -2,7 +2,7 @@
   Створіть новий тип даних, який підходить для цих двох об'єктів.
 */
 
-type PageDetails = {
+type details = {
   createAt: Date
   updateAt: Date
 }
@@ -12,7 +12,7 @@ type Page = {
   likes: number
   accounts: string[]
   status: string
-  details?: PageDetails
+  details?: details
 }
 
 const page1: Page = {
